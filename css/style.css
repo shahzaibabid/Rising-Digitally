@@ -2677,8 +2677,8 @@ h5.mb-0 .project-btn span{
 /* ts-service-box */
 
 .ts-service-row-box .ts-service-box {
-    background:  #fff;
-    border: 1px solid #eaeaea;
+    background:  #000000;
+    border: 2px solid #FFBD10;
 }
 
 .ts-service-row-box .ts-service-content {
