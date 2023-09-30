@@ -46,8 +46,8 @@
 /* Typography
 ================================================== */
 body {
-  background: #fff;
-  color: #626c84;
+  background: #000000;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Roboto', sans-serif;
@@ -67,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #252a37;
+  color: #EBAF41;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
@@ -2810,6 +2810,7 @@ h5.mb-0 .project-btn span{
 
 .ts-service-area {
    position: relative;
+   background-color: #000000;
 }
 
 /* testimonial */
