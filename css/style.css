@@ -129,14 +129,14 @@ body {
 }
 
 a {
-  color: #da0f32;
+  color: #ffffff;
 }
 a:link, a:visited {
   text-decoration: none;
 }
 a:hover {
   text-decoration: none;
-  color: #FFBD10;
+  color: #da0f32;
 }
 
 .link-more {
@@ -2679,6 +2679,7 @@ h5.mb-0 .project-btn span{
 .ts-service-row-box .ts-service-box {
     background:  #000000;
     border: 2px solid #FFBD10;
+    border-radius: 5px;
 }
 
 .ts-service-row-box .ts-service-content {
