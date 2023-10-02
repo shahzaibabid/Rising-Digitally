@@ -729,14 +729,16 @@ button:focus {
 /* box button */
 
 .btn-box {
-    background: #1e2227;
-    color: #fff;
+    background: #EBAF41;
+    color: #000000;
     padding: 15px;
+    border-color: #000;
+    
 }
 
 .btn-box:hover {
-    background: #000;
-    color: #fff;
+    background: #da0f32;
+    color: #000000;
 }
 
 /* Ul, Ol */
@@ -807,7 +809,7 @@ a[href^=tel] {
 }
 
 .owl-carousel.owl-theme .owl-nav [class*=owl-] {
-  background: #da0f32;
+  background: #000000;
   color: #fff;
   position: absolute;
   bottom: 0;
@@ -832,7 +834,7 @@ a[href^=tel] {
 }
 
 .owl-carousel.owl-theme .owl-nav > div:hover {
-  background: #272d33;
+  background: #EBAF41;
 }
 
 .owl-theme .owl-dots {
@@ -2119,7 +2121,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   text-align: center;
 }
 .owl-carousel.owl-theme .owl-nav [class*=owl-] {
-  background: #da0f32;
+  background: #000000;
   position: absolute;
   bottom: 0;
   right: -25px;
@@ -3119,7 +3121,7 @@ h5.mb-0 .project-btn span{
 
 .call-to-action-bg {
   padding: 20px;
-  background: #da0f32;
+  background: #51AFA6;
 }
 
 .call-to-action-bg h3 {
@@ -3127,7 +3129,7 @@ h5.mb-0 .project-btn span{
 }
 .call-to-action-bg h3,
 .call-to-action-bg p {
-  color: #fff;
+  color: #000000;
 }
 .call-to-action-bg p {
   margin-bottom: 0;
@@ -3857,7 +3859,7 @@ img.testimonial-thumb {
 }
 
 .clients-area {
-  background: #f7f9fd;
+  background: #51AFA6;
   padding: 70px 0;
 }
 
@@ -3909,13 +3911,13 @@ img.testimonial-thumb {
 .owl-carousel.owl-theme.partners .owl-nav .owl-prev {
   left: -25px;
   right: auto;
-  background: #da0f32;
-  color: #fff;
+  background: #000000;
+  color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .owl-carousel.owl-theme.partners .owl-nav .owl-prev:hover {
-  background: #272D33;
+  background: #EBAF41;
 }
 .owl-carousel.owl-theme.partners .owl-nav [class*=owl-] {
   bottom: 0px;
@@ -6099,4 +6101,9 @@ label {
 
 
 
+
+video {
+  width: 100%;
+  height: auto;
+}
 
