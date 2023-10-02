@@ -4181,12 +4181,12 @@ p.panel-title a.collapsed {
   background: url(../images/footer-bg.png);
   background-size: cover;
   background-position: 100%;
-  color: #8c93a5;
+  color: #fff;
   position: relative;
   padding: 80px 0 20px;
 }
 .footer-main.bg-overlay:after {
-  background-color: rgba(0, 8, 29, 0.85);
+  background-color: #222222;
 }
 
 .footer-widget {
@@ -4230,7 +4230,7 @@ p.panel-title a.collapsed {
   -webkit-transition: 400ms;
   transition: 400ms;
   transition: 400ms;
-  color: #fff;
+  color: #000000;
 }
 .footer-social ul li a:hover {
   color: #da0f32;
@@ -4239,7 +4239,7 @@ p.panel-title a.collapsed {
   width: 36px;
   height: 36px;
   line-height: 36px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #EBAF41;
   border-radius: 100%;
   text-align: center;
   -webkit-transition: 400ms;
@@ -4324,8 +4324,8 @@ p.panel-title a.collapsed {
 
 /* Copyright */
 .copyright {
-  background: #00081d;
-  color: #8c93a5;
+  background: #000000;
+  color: #ffffff;
   padding: 30px 0;
   font-size: 15px;
 }
