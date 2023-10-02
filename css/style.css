@@ -2912,8 +2912,8 @@ h5.mb-0 .project-btn span{
     display: inline-block;
     padding: 50px 40px 30px 45px;
     background-color: #fff;
-    background: #1e2227;
-    color: #fff;
+    background: #51afa6;
+    color: #000000;
     position: relative;
     font-size: 16px;
     font-style: italic;
@@ -3680,10 +3680,10 @@ h5.mb-0 .project-btn span{
   font-size: 20px;
   width: 50px;
   height: 50px;
-  border: 1px solid #da0f32;
+  border: 1px solid #000;
   line-height: 50px;
-  color: #fff;
-  background: #da0f32;
+  color: #000000;
+  background: #51afa6;
   border-radius: 3px;
   left: 45px;
 }
@@ -3798,7 +3798,7 @@ img.testimonial-thumb {
 }
 
 .quote-subtext {
-  color: #9e9e9e;
+  color: #FFFFFF;
   font-size: 14px;
 }
 
