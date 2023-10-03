@@ -6067,3 +6067,18 @@ hr.hr-3 {
   border-top: 5px solid #EBAF41;
   margin: auto;
 }
+
+.responsive-map{
+  overflow: hidden;
+  padding-bottom:26.25%;
+  position:relative;
+  height:0;
+border-radius: 5px;
+  }
+  .responsive-map iframe{
+  left:0;
+  top:0;
+  height: 500px;
+  width:100%;
+  position:absolute;
+  }
