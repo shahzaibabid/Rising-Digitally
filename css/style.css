@@ -1,36 +1,4 @@
-/*
-   Template Name:  Logicraft | The Multi-Purpose HTML5 Template
-   Author: tripples
-   Author URI: https://themehunt.com/profile/Tripples
-   Description:  Logicraft | The Multi-Purpose HTML5 Template
-   Version: 1.0
-   
-*/
 
-/* Table of Content
-==================================================
-1.    Typography
-2.    Global Styles
-3.    Top Bar
-4.    Header area
-5.    Slider
-6.    Features
-7.    Service
-8.    Projects
-9.    Intro Area
-10.   Call To Action
-11.   Content Area
-12.   Client
-13.   Latest News
-14.   Footer
-15.   Sub Pages
-16.   Pricing Table
-17.   Quote Area
-18.   Contact Us
-19.   News Single
-20.   Sidebar
-21.   Error Page
-*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900');
 @font-face {
@@ -771,7 +739,7 @@ ul.list-dash li:before {
   font-family: FontAwesome;
   content: "\f068";
   margin-right: 10px;
-  color: #da0f32;
+  color: #EBAF41;
   font-size: 10px;
 }
 
@@ -4280,7 +4248,7 @@ p.panel-title a.collapsed {
   color: #fff;
 }
 .footer-widget ul.list-dash li a:hover {
-  color: #ff0000;
+  color: #EBAF41;
 }
 
 /* Newsletter */
@@ -6087,23 +6055,15 @@ label {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 video {
   width: 100%;
   height: auto;
 }
 
+
+hr.hr-3 {
+  border: 0;
+  height: 0;
+  border-top: 5px solid #EBAF41;
+  margin: auto;
+}
