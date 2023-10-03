@@ -6078,7 +6078,7 @@ border-radius: 5px;
   .responsive-map iframe{
   left:0;
   top:0;
-  height: 500px;
+  height: 100%;
   width:100%;
   position:absolute;
   }
