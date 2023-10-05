@@ -1,7 +1,7 @@
 <?php
 
 //Add your information here
-$recipient = "themefunctions@gmail.com";
+$recipient = "info@risindigitally.com";
 
 //Don't edit anything below this line
 
