@@ -675,12 +675,12 @@ button:focus {
 .btn-primary:hover,
 .btn-dark:hover,
 .btn-white.btn-primary:hover {
-  background: #ff0000;
+  background: #EE4F27;
   color: #fff;
 }
 
 .btn-border:hover {
-  background: #ff0000;
+  background: #EE4F27;
   border: 2px solid transparent;
   color: #fff;
 }
