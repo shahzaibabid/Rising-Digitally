@@ -1877,6 +1877,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 #main-slide .carousel-item img {
   width: 100%;
+ 
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -1968,7 +1969,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   display: block;
   position: relative;
   max-height: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .slider.btn {
@@ -2594,7 +2595,7 @@ h5.mb-0 .project-btn span{
 }
 
 .project-right-side {
-    margin-top: 65px;
+    margin-top: 25px;
 }
 
 /* Services
