@@ -47,87 +47,9 @@
     script(src='js/respond.min.js')
     -->
     <style>
-
-#slider{
-  width:100%;
-  margin:0 auto;
-  position:relative;
-  overflow:hidden;
-  box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
-}
-
-.slide{
-  width:100%;
-  
-  display:none;
-  animation-name:fade;
-  animation-duration:1s;
-  
-}
-
-
-img{
- width:100%; 
-}
-@keyframes fade{
-  from{opacity:0.5;}
-  to{opacity:1;}
-}
-
-.controls{
-  position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  font-size:1.5em;
-  padding:15px 10px;
-  border-radius:5px;
-  
-}
-
-.controls:hover{
-
-  transition:0.3s;
-}
-
-.controls:active{
-  color:grey;
-}
-
-#left-arrow{
-  left:10px;
-}
-
-#right-arrow{
-  right:10px;
-}
-
-#dots-con{
-  
-  text-align:center;
-}
-.dot{
-  display:inline-block;
-  background:#EE4F27;
-  padding:8px;
-  border-radius:50%;
-  margin:10px 5px;
-}
-
-
-
-@media (max-width:576px){
-  #slider{width:80%;
-  
+      img{
+   width:100%; 
   }
-  
-  .controls{
-    font-size:1em;
-  }
-  
-  #dots-con{
-    display:none;
-  }
-}
     </style>
 </head>
 
@@ -142,7 +64,7 @@ img{
                   <!-- <div class="logo-area clearfix">
                      <div class="logo col-lg-3 col-md-12">
                         <a href="index.html">
-                           <img src="images/rd_logo.png" alt="">
+                           <mmg src="images/rd_logo.png" alt="">
                         </a>
                      </div>
                      <!- logo end-->
@@ -175,7 +97,7 @@ img{
             <div class="site-nav-inner site-navigation navigation navdown">
                <div class="container">
                   <nav class="navbar navbar-expand-lg ">
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-montrols="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="icon icon-menu"></i></span></button>
                      <!-- End of Navbar toggler-->
 
@@ -269,32 +191,32 @@ img{
       <div class="row">
 
         <div class="col-md-6 col-lg-8">
-          <div id="slider">  
+          <div id="morouselr">  
 
-            <div class="slide" style="background:dodgerBlue;">
+            <div class="morousel" style="background:dodgerBlue;">
               <img src="images/projects/agencybox.png" >
             </div>
             
-            <div class="slide" style="background:coral;">
+            <div class="morousel" style="background:coral;">
                <img src="images/projects/cha fusion.jpg">
             </div>
            
-            <div class="slide" style="background:crimson;">
+            <div class="morousel" style="background:crimson;">
               <img src="images/projects/cha fusion.jpg" >
             </div>
             
-            <div class="slide" style="background: #6edf10;">
+            <div class="morousel" style="background: #6edf10;">
               <img src="images/projects/agencybox.png" >
             </div>
             
             <!--Controlling arrows-->
-            <span class="controls" onclick="prevSlide(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <span class="montrols" onclick="prevmorousel(-1)" id="left-arrow"><i class="fa fa-arrow-left" aria-hidden="true"></i>
           </span>
-            <span class="controls" id="right-arrow" onclick="nextSlide(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="montrols" id="right-arrow" onclick="nextmorousel(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i>
           </span>
           
-            <div id="dots-con">
-           <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            <div id="mots-con">
+           <span class="mot"></span><span class="mot"></span><span class="mot"></span><span class="mot"></span>
            </div>
            <div class="tag"><span >Brand Name: </span> <a href="https://www.agencybox.com/"> Agency Box</a></div>
       
@@ -329,7 +251,7 @@ img{
                <div class="card">
                   <div class="card-header" id="headingOne">
                      <h5 class="mb-0">
-                        <button class="btn btn-link project-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="btn btn-link project-btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-montrols="collapseOne">
                            <span style="color: black;"> Target Country</span>
                         </button>
                      </h5>
@@ -346,7 +268,7 @@ img{
                <div class="card">
                   <div class="card-header" id="headingTwo">
                      <h5 class="mb-0">
-                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-montrols="collapseTwo">
                            <span style="color: black;"> Number of Influencers</span>
                         </button>
                      </h5>
@@ -360,7 +282,7 @@ img{
                <div class="card">
                   <div class="card-header" id="headingThree">
                      <h5 class="mb-0">
-                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-montrols="collapseThree">
                            <span style="color: black;">Influencers Type</span>
                         </button>
                      </h5>
@@ -374,7 +296,7 @@ img{
                <div class="card">
                   <div class="card-header" id="headingFour">
                      <h5 class="mb-0">
-                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="btn btn-link project-btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-montrols="collapseFour">
                            <span style="color: black;"> Niche</span>
                         </button>
                      </h5>
@@ -519,44 +441,44 @@ img{
       <!-- Template custom-->
       <script type="text/javascript" src="js/custom.js"></script>
       <script>
-         var slides = document.querySelectorAll(".slide");
-var dots = document.querySelectorAll(".dot");
+         var morousels = document.querySelectorAll(".morousel");
+var mots = document.querySelectorAll(".mot");
 var index = 0;
 
 
-function prevSlide(n){
+function prevmorousel(n){
   index+=n;
-  console.log("prevSlide is called");
-  changeSlide();
+  console.log("prevmorousel is called");
+  changemorousel();
 }
 
-function nextSlide(n){
+function nextmorousel(n){
   index+=n;
-  changeSlide();
+  changemorousel();
 }
 
-changeSlide();
+changemorousel();
 
-function changeSlide(){
+function changemorousel(){
     
-  if(index>slides.length-1)
+  if(index>morousels.length-1)
     index=0;
   
   if(index<0)
-    index=slides.length-1;
+    index=morousels.length-1;
   
   
   
-    for(let i=0;i<slides.length;i++){
-      slides[i].style.display = "none";
+    for(let i=0;i<morousels.length;i++){
+      morousels[i].style.display = "none";
       
-      dots[i].classList.remove("active");
+      mots[i].classList.remove("active");
       
       
     }
     
-    slides[index].style.display = "block";
-    dots[index].classList.add("active");
+    morousels[index].style.display = "block";
+    mots[index].classList.add("active");
 
   
 

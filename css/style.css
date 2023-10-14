@@ -6083,3 +6083,86 @@ border-radius: 5px;
   width:100%;
   position:absolute;
   }
+
+
+  /* casestudies slider */
+
+  #morouselr{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    box-shadow:2px 5px 10px rgba(0,0,0,0.4);;
+  }
+  
+  .morousel{
+    width:100%;
+    
+    display:none;
+    animation-name:fade;
+    animation-duration:1s;
+    
+  }
+  
+  
+  
+  @keyframes fade{
+    from{opacity:0.5;}
+    to{opacity:1;}
+  }
+  
+  .montrols{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:1.5em;
+    padding:15px 10px;
+    border-radius:5px;
+    
+  }
+  
+  .montrols:hover{
+  
+    transition:0.3s;
+  }
+  
+  .montrols:active{
+    color:grey;
+  }
+  
+  #left-arrow{
+    left:10px;
+  }
+  
+  #right-arrow{
+    right:10px;
+  }
+  
+  #mots-con{
+    
+    text-align:center;
+  }
+  .mot{
+    display:inline-block;
+    background:#EE4F27;
+    padding:8px;
+    border-radius:50%;
+    margin:10px 5px;
+  }
+  
+  
+  
+  @media (max-width:576px){
+    #morouselr{width:80%;
+    
+    }
+    
+    .montrols{
+      font-size:1em;
+    }
+    
+    #mots-con{
+      display:none;
+    }
+  }
+  
