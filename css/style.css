@@ -6125,7 +6125,7 @@ border-radius: 5px;
   
     transition:0.3s;
   }
-  
+ 
   .montrols:active{
     color:grey;
   }
@@ -6144,7 +6144,7 @@ border-radius: 5px;
   }
   .mot{
     display:inline-block;
-    background:#EE4F27;
+    background:#58BBB1;
     padding:8px;
     border-radius:50%;
     margin:10px 5px;
