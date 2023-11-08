@@ -3543,7 +3543,7 @@ h5.mb-0 .project-btn span{
 .quote_form textarea:-moz-placeholder,
 .quote_form input::-moz-placeholder,
 .quote_form textarea::-moz-placeholder {
-  color: #000;
+  color: #fff;
 }
 
 .newsletter-form input::-moz-placeholder {
