@@ -40,6 +40,8 @@
    <link rel="stylesheet" href="css/style.css">
    <!-- Responsive styles-->
    <link rel="stylesheet" href="css/responsive.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
 
    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file.-->
    <!--if lt IE 9
@@ -47,7 +49,95 @@
     script(src='js/respond.min.js')
     -->
 </head>
+<style>
+   
+.faq-container {
+   width: 800px;
+   background-color: #000;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #fff;
+ }
+ 
+ .faq-item {
+   padding: 20px;
+   border-bottom: 1px solid #e0e0e0;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .faq-item:last-child {
+   border-bottom: none;
+ }
+ 
+ .faq-question {
+   font-size: 18px;
+   font-weight: 700;
+   padding-bottom: 3px;
+   patting-top: 3px;
+   color: #fff;
+ }
+ 
+ .faq-answer {
+   font-size: 16px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.3s ease-in-out;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #fff;
 
+ }
+ 
+ .faq-answer.active {
+   border-bottom: 1px solid #fff;
+ }
+ 
+ .icon-container i {
+   color: #000;
+   font-size: 16px;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+ }
+ 
+ .icon-container i.active {
+   transform: rotate(90deg);
+ }
+
+ 
+ header {
+   background-color: #58BDB3;
+   color: black;
+   text-align: center;
+   padding: 1em 0;
+ }
+
+ .mection {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: #58BDB3;
+   box-shadow: 10 10 10px rgba(153, 46, 46, 0.1);
+   border-radius: 20px;
+   border-bottom: 12px solid #EE4E27;
+   border-right: 12px solid #EE4E27;
+   
+
+ }
+
+
+ .cta-button {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #ECAF42;
+   color: #000;
+   text-decoration: none;
+   border-radius: 15px;
+   font-weight: bold;
+ }
+</style>
 <body>
 
    <div class="body-inner">
@@ -178,6 +268,47 @@
       </div>
       <!-- Banner area end-->
       <br><br>
+      <div class="container">
+         <div class="row">
+           <div class="col-lg-6">
+            <section class="mection">
+               <h3 style="color: #000;">Your Last Stop for Exceptional Influencer Marketing Impact</h3>
+               <p style="color: #000;">Your Spectrum of Influencers with 1k+ Creators Across Diverse Niches</p>
+               <p style="color: #000;">Superior Value, Flexible Pricing, Maximize Your ROI</p>
+
+               <p style="color: #000;">Advocated by 100+ Premier Brands Worldwide</p>
+               <a href="#get-started" class="cta-button">Get Started</a>
+             </section>
+           </div>
+           <div class="col-lg-6" style="margin-top: -100px;">
+            <img src="./images/services/midwali.png" alt="">
+<br>
+           </div>
+           <div class="col-lg-6" style="margin-top: -100px;">
+            <img src="./images/services/3rd-one.png" alt="">
+
+           </div> <br><br>
+           <div class="col-lg-6">
+            <section class="mection">
+               <h3 style="color: #000;">Influence that Promote Your Gateway to Market Domination</h3>
+               <p style="color: #000;">A world where your brand's story is told not by words alone but through the authentic voices of those your audience trusts most. 
+                  Rising Digitally isn't just a service provider, we're your gateway to an empire where every like, share, and comment is a step toward unmatched brand love and loyalty.
+                  </p>
+               <a href="#get-started" class="cta-button">Get Started</a>
+             </section>
+           </div>
+           <div class="col-lg-6">
+            <section class="mection">
+               <h3 style="color: #000;">Campaigns That Don’t Just ‘Perform’—But Win The Hearts</h3>
+               <p style="color: #000;">When you partner with Rising Digitally, you're not just getting posts, you're signing up for masterpieces of digital influence. We're in the business of creating connections that do more than engage.</p>
+               <a href="#get-started" class="cta-button">Get Started</a>
+             </section>
+           </div>
+           <div class="col-lg-6" style="margin-top: -120px;"> 
+            <img src="./images/services/5516269_2857741-removebg-preview.png" alt="">
+         </div>
+         </div>
+       </div>      <br>
       <section class="ts-services solid-bg" id="ts-services">
          <div class="container">
             <div class="row text-center">
@@ -285,6 +416,81 @@
          <!-- Container end-->
       </section>
       <!-- Service end-->
+<br>
+<div class="faq-container container"> <br>
+   <div class="row text-center">
+      <div class="col-md-12">
+         <h2 class="section-title"><span style="color: #58BDB3;"></span>FAQ</h2>
+      </div>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q1.  How does Rising Digitally elevate my brand with influencer marketing?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>At Rising Digitally, we create strategy with storytelling to launch your brand into the digital spotlight. Our experts tailor campaigns that not only showcase your brand but also strike a chord with audiences, creating lasting impressions and driving meaningful engagement.</p>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q2. Can Rising Digitally's influencer marketing services integrate with my existing marketing strategy?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>Absolutely! Our team specializes in creating strategies that complement and enhance your existing marketing efforts. We ensure influencer campaigns work in sync with your brand's vision, amplifying the results of your current marketing initiatives.</p>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q3. What sets Rising Digitally apart when it comes to choosing influencers for my brand?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>Our selection process is data-driven and heart-led. We dive deep into understanding your brand ethos and match you with influencers who share similar values and voices, ensuring an authentic and impactful partnership.
+      </p>
+   </div>
+   <div class="faq-item">
+      <div class="faq-question">Q4. How transparent is the influencer marketing process with Rising Digitally?</div>
+      <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+  </div>
+  <div class="faq-answer">
+      <p>, Transparency is the backbone of trust. From influencer selection to performance tracking, we keep you in the loop every step of the way. Our reports are comprehensive yet understandable, ensuring you witness the growth and success of your campaigns firsthand.
+
+     </p>
+  </div>
+  <div class="faq-item">
+   <div class="faq-question">Q5.  Will my brand's voice be consistent across different platforms and influencers?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p>Consistency is key, and at Rising Digitally, we craft a cohesive narrative that resonates across all platforms. No matter the influencer or the medium, your brand's voice will remain unmistakable and true to its core.
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q6. How quickly can I expect to see results from my influencer marketing campaign?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p>The digital world moves fast, and so do we. While the timeline for visible results can vary, our strategic approach is designed to build momentum quickly, ensuring your brand captures attention and gains traction on time.
+
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q7. What kind of support can I expect throughout the influencer marketing campaign?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p>Think of us as your co-pilots in digital marketing. From strategic planning to post-campaign analysis, our team provides unwavering support and insights to help your campaign soar to new heights.
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q8. How does Rising Digitally keep up with the changing trends in influencer marketing?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p> We are digital trendsetters. Our team stays ahead of the curve, continuously adapting to the ever-evolving digital landscape to ensure your influencer campaigns are fresh, relevant, and impactful.
+
+  </p>
+</div>
+</div>
+<br>
+
         <!-- Footer start-->
         <footer class="footer" id="footer">
          <div class="footer-main bg-overlay">
@@ -388,6 +594,36 @@
       Javascript Files
       ==================================================
       -->
+      <script>
+         const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+  const question = item.querySelector('.faq-question');
+  const answer = item.nextElementSibling;
+  const icon = item.querySelector('i');
+
+  item.addEventListener('click', () => {
+    faqItems.forEach(otherItem => {
+      if (otherItem !== item) {
+        const otherAnswer = otherItem.nextElementSibling;
+        const otherIcon = otherItem.querySelector('i');
+
+        otherAnswer.classList.remove('active');
+        otherIcon.classList.remove('active');
+        otherAnswer.style.maxHeight = "0";
+      }
+    });
+
+    answer.classList.toggle('active');
+    icon.classList.toggle('active');
+    if (answer.classList.contains('active')) {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    } else {
+      answer.style.maxHeight = "0";
+    }
+  });
+});
+      </script>
       <!-- initialize jQuery Library-->
       <script type="text/javascript" src="js/jquery.js"></script>
        
