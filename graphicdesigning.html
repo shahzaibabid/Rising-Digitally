@@ -47,8 +47,91 @@
     script(src='js/respond.min.js')
     -->
     <style>
-
-    </style>
+      .faq-container {
+         width: 800px;
+         background-color: #000;
+         border-radius: 10px;
+         box-shadow: 0 0 10px #fff;
+       }
+       
+       .faq-item {
+         padding: 20px;
+         border-bottom: 1px solid #e0e0e0;
+         cursor: pointer;
+         transition: background-color 0.3s ease-in-out;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+       }
+       
+       .faq-item:last-child {
+         border-bottom: none;
+       }
+       
+       .faq-question {
+         font-size: 18px;
+         font-weight: 700;
+         padding-bottom: 3px;
+         patting-top: 3px;
+         color: #fff;
+       }
+       
+       .faq-answer {
+         font-size: 16px;
+         max-height: 0;
+         overflow: hidden;
+         transition: max-height 0.3s ease-in-out;
+         padding-left: 10px;
+         padding-right: 10px;
+         color: #fff;
+      
+       }
+       
+       .faq-answer.active {
+         border-bottom: 1px solid #fff;
+       }
+       
+       .icon-container i {
+         color: #000;
+         font-size: 16px;
+         cursor: pointer;
+         transition: transform 0.3s ease-in-out;
+       }
+       
+       .icon-container i.active {
+         transform: rotate(90deg);
+       }
+      header {
+         background-color: #58BDB3;
+         color: black;
+         text-align: center;
+         padding: 1em 0;
+       }
+      
+       .mection {
+         max-width: 800px;
+         margin: 20px auto;
+         padding: 20px;
+         background-color: #58BDB3;
+         box-shadow: 10 10 10px rgba(153, 46, 46, 0.1);
+         border-radius: 20px;
+         border-bottom: 12px solid #EE4E27;
+         border-right: 12px solid #EE4E27;
+         
+      
+       }
+      
+      
+       .cta-button {
+         display: inline-block;
+         padding: 10px 20px;
+         background-color: #ECAF42;
+         color: #000;
+         text-decoration: none;
+         border-radius: 15px;
+         font-weight: bold;
+       }
+   </style>
 </head>
 
 <body>
@@ -184,7 +267,73 @@
          <!-- Container end-->
       </div>
       <!-- Banner area end-->
-     
+      <br><br>
+      <div class="container">
+         <h1 style="text-align: left;">Bring Your Brand to Life with Design That Delivers</h1>
+         <h4 style="text-align: left; color:aliceblue">When it comes to standing out, it’s not just about what you say but how you look when you say it. Great graphic design isn’t just about drawing attention; it’s about holding it, telling a story, and inspiring action.
+         </h4>
+         <center>
+         <img src="./images/services/brand-identity.png" alt="">
+        </center>
+         <h1 style="text-align: left;">Why Invest in Graphic Design?</h1>
+      <h4 style="text-align: left; color:aliceblue" style="text-align: left;"> Your brand’s image is its handshake with the world, and our designs make it firm and memorable. It’s about crafting a visual experience that turns the heads of your customers and opens their hearts to your message.
+      </h4>
+      <a href="./letstalk.html" class="cta-button">Transform Your Image Today</a>
+
+      </div>
+      <br>
+      <h1 style="text-align: center;">The Benefits of Having Graphic Designers</h1>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6">
+               <section class="mection">
+                  <h3 style="color: #000;">Empowering Your Brand's Visual Identity</h3>
+                  <p style="color: #000;">Think of our graphic designers as your brand’s personal stylists—they make sure your brand shows up in the digital world dressed to impress. Partner with us, and here’s the edge you gain:
+                  </p>
+                     <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div> 
+              <div class="col-lg-6"><br>
+               <section class="mection">
+                  <h3 style="color: #000;">Effective Communication:</h3>
+                  <p style="color: #000;">Visuals convey complex messages quickly and effectively, ensuring your audience understands your brand's value.</p>
+                  <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div>
+           
+             
+              <div class="col-lg-6">
+               <section class="mection">
+                  <h3 style="color: #000;">Consistency Across Channels:</h3>
+                  <p style="color: #000;"> Graphic designers ensure that your brand's visuals are consistent across all platforms.</p>
+                  <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div>
+              <div class="col-lg-6"> <br>
+               <section class="mection">
+                  <h3 style="color: #000;">Professionalism & Credibility:</h3>
+                  <p style="color: #000;">Well-designed visuals convey trust and professionalism, making your business stand out in a crowded market.</p>
+                  <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div>
+            
+              <div class="col-lg-6">
+               <section class="mection">
+                  <h3 style="color: #000;">Engagement and Conversion:</h3>
+                  <p style="color: #000;">Satisfying graphics capture attention, increase engagement, and drive conversions, ultimately boosting your bottom line.</p>
+                  <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div>
+              
+              <div class="col-lg-6"><br>
+               <section class="mection">
+                  <h3 style="color: #000;">Brand Loyalty:</h3>
+                  <p style="color: #000;"> Memorable design builds brand loyalty, turning one-time customers into lifelong advocates.</p>
+                  <!-- <a href="#get-started" class="cta-button">Get Started</a> -->
+                </section>
+              </div>
+            </div>
+      </div>
       <section class="ts-services solid-bg" id="ts-services">
         <div class="container">
            <div class="row text-center">
@@ -288,7 +437,80 @@
         <!-- Container end-->
      </section>
      <!-- Service end-->
-     
+     <br>
+<div class="faq-container container"> <br>
+   <div class="row text-center">
+      <div class="col-md-12">
+         <h2 class="section-title"><span style="color: #58BDB3;"></span>FAQ</h2>
+      </div>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q1.  What graphic design services do you offer?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>Rising Digitally specializes in a comprehensive range of graphic design services, including branding, website design, 3D rendering, motion graphics, AR experiences, and more. We aim to cover all your visual communication needs, from initial concept to final delivery.
+      </p>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q2. How does the design process work with Rising Digitally?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>Our process begins with understanding your vision and objectives. We then move into conceptualization, creating drafts for your review. We collaborate closely with you, incorporating feedback and refining the concept perfectly. Finally, we deliver high-quality design assets tailored to your specifications.</p>
+   </div>
+   <div class="faq-item">
+       <div class="faq-question">Q3. Can I see examples of work you've done before?</div>
+       <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+   </div>
+   <div class="faq-answer">
+       <p>Absolutely! We’re proud of our work and have a diverse portfolio showcasing our projects across various industries. You can view our work on our website or request a specific sample that aligns with your project needs.     </p>
+   </div>
+   <div class="faq-item">
+      <div class="faq-question">Q4. How long does it typically take to complete a design project?</div>
+      <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+  </div>
+  <div class="faq-answer">
+      <p>The timeline for a design project varies depending on the complexity and scope. A typical project can take anywhere from a few days to several weeks. We strive to work efficiently while ensuring the highest quality, and we’ll provide a more specific timeframe upon understanding your project details.
+
+     </p>
+  </div>
+  <div class="faq-item">
+   <div class="faq-question">Q5. What if I need more than the initial design concepts?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p>Your satisfaction is our priority. If the initial concepts don’t meet your expectations, we’re committed to a collaborative process that includes revisions based on your feedback to ensure the final design resonates with your brand and vision.
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q6. How do you price your graphic design services?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p> Our pricing is project-based and varies depending on the scope and complexity of the work required. We provide transparent quotes and flexible packages to fit different budgets and needs. Contact us for a customized estimate.
+
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q7.  How do I get started with Rising Digitally for my design needs?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p>Starting with us is simple. Reach out via our website or email, and we’ll schedule a consultation to discuss your project. This initial conversation is the first step toward creating your brand’s visual story.
+  </p>
+</div>
+<div class="faq-item">
+   <div class="faq-question">Q8. What information must I provide to begin a design project?</div>
+   <div class="icon-container"><i class="fas fa-chevron-right"></i></div>
+</div>
+<div class="faq-answer">
+   <p> To begin, we'll need a clear understanding of your project requirements, target audience, and desired outcomes. Any existing brand materials, like logos and style guides, as well as your preferences and inspirations, will help us craft the perfect design for you.
+
+  </p>
+</div>
+</div>
+<br>
        <!-- Footer start-->
        <footer class="footer" id="footer">
          <div class="footer-main bg-overlay">
@@ -392,6 +614,36 @@
       Javascript Files
       ==================================================
       -->
+      <script>
+         const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+  const question = item.querySelector('.faq-question');
+  const answer = item.nextElementSibling;
+  const icon = item.querySelector('i');
+
+  item.addEventListener('click', () => {
+    faqItems.forEach(otherItem => {
+      if (otherItem !== item) {
+        const otherAnswer = otherItem.nextElementSibling;
+        const otherIcon = otherItem.querySelector('i');
+
+        otherAnswer.classList.remove('active');
+        otherIcon.classList.remove('active');
+        otherAnswer.style.maxHeight = "0";
+      }
+    });
+
+    answer.classList.toggle('active');
+    icon.classList.toggle('active');
+    if (answer.classList.contains('active')) {
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    } else {
+      answer.style.maxHeight = "0";
+    }
+  });
+});
+      </script>
       <!-- initialize jQuery Library-->
       <script type="text/javascript" src="js/jquery.js"></script>
        
