@@ -3,70 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <title>Image Slider</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{
-            background-color: #000;
+        /* Custom styles for responsive slider */
+        .carousel-inner {
+            display: flex;
+            flex-wrap: nowrap;
         }
-        .image-slider {
-            position: relative;
+
+        .carousel-item {
+            width: 100%; /* Each item takes 100% width initially */
         }
-        .slick-prev, .slick-next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #EEB244;
-            padding: 15px 15px 15px 15px; /* Increased button size */
-            border: none;
-            cursor: pointer;
-        }
-        .slick-prev {
-            left: 0;
-            z-index: 1; /* Ensures the button is on top */
-        }
-        .slick-next {
-            right: 0;
+
+        @media (min-width: 768px) {
+            .carousel-item {
+                width: 100%; /* On desktop, each item still takes 100% width */
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                display: none; /* Hide controls on desktop */
+            }
         }
     </style>
+    <title>Responsive Slider</title>
 </head>
-<body> <br><br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="image-slider">
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                    <div><img src="./images/clients/1-112.png" alt="Image 1"></div>
-                </div>
+<body>
+
+<div class="container mt-5">
+    <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+        <div class="carousel-inner">
+            <!-- Add your images here -->
+            <div class="carousel-item active">
+                <img src="./images/services/trupti-sagar.jpg" class="d-block w-50" alt="Image 1">
+                
             </div>
+            <div class="carousel-item">
+                <img src="./images/services/mike.jpg" class="d-block w-50" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/services/diariesofcodegirl.jpg" class="d-block w-50" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/services/nain-sukh.jpg" class="d-block w-50" alt="Image 4">
+            </div>
+            <!-- Add more carousel items for additional images -->
         </div>
     </div>
+</div>
 
-    <script>
-        $(document).ready(function(){
-            $('.image-slider').slick({
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                prevArrow: '<button class="slick-prev">Previous</button>',
-                nextArrow: '<button class="slick-next">Next</button>',
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-        });
-    </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>

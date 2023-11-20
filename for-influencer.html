@@ -283,6 +283,39 @@ border-radius: 20px;
   }
 }
  
+/* Default styles for larger screens */
+.col-lg-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .col-lg-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+}
+ /* Custom styles for responsive slider */
+ .carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-item {
+  width: 100%; /* Each item takes 100% width initially */
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+      width: 100%; /* On desktop, each item still takes 100% width */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: none; /* Hide controls on desktop */
+  }
+}
     </style>
 </head>
 
@@ -710,16 +743,16 @@ border-radius: 20px;
 <br>
 
 
-<h1 style="text-align: center;">Influencers worked With Us</h1>
+<h2 style="text-align: center;">Influencers worked With Us</h2>
 <br>
-<div class="container">
+<div class="container d-none d-md-block">
   <div id="imageCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="row">
           <!-- Add your first three images here -->
           <!-- Example: -->
-          <div class="col-lg-3 round">
+          <div class="col-lg-3 col-sm-3 round">
             <img src="./images/services/trupti-sagar.jpg" alt="">
             <div class="image-overlay">
               <h4 style="color: #fff;">Trupti-Sagar</h4>
@@ -727,7 +760,7 @@ border-radius: 20px;
               <a href="https://www.instagram.com/trupti_sagar/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 round">
+          <div class="col-lg-3  col-sm-3 round">
             <img src="./images/services/mike.jpg" alt="">
             <div class="image-overlay">
               <h4 style="color: #fff;">Mike Tyson</h4>
@@ -735,7 +768,7 @@ border-radius: 20px;
               <a href="https://www.instagram.com/miketyson/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 round">
+          <div class="col-lg-3 col-sm-3 round">
             <img src="./images/services/diariesofcodegirl.jpg" alt="">
             <div class="image-overlay">
               <h4 style="color: #fff;">Diaries of a code girl</h4>
@@ -743,7 +776,7 @@ border-radius: 20px;
               <a href="https://www.instagram.com/diariesofacodegirl/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 round">
+          <div class="col-lg-3 col-sm-3 round">
             <img src="./images/services/nain-sukh.jpg" alt="">
             <div class="image-overlay">
               <h4 style="color: #fff;">Nain Sukh</h4>
@@ -842,6 +875,32 @@ border-radius: 20px;
 </div>
 <br>
 
+
+<div class="container mt-2 d-md-none">
+  <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+      <div class="carousel-inner">
+          <!-- Add your images here -->
+          <div class="carousel-item active">
+              <img src="./images/services/trupti-sagar.jpg" class="d-block w-80" alt="Image 1">
+              <div class="image-overlay">
+                <h4 style="color: #fff;">Trupti-Sagar</h4>
+                <h6 class="category"  style="color: #fff;">Lifestyle Blogger</h6>
+                <a href="https://www.instagram.com/trupti_sagar/" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="./images/services/mike.jpg" class="d-block w-80" alt="Image 2">
+          </div>
+          <div class="carousel-item">
+              <img src="./images/services/diariesofcodegirl.jpg" class="d-block w-80" alt="Image 3">
+          </div>
+          <div class="carousel-item">
+              <img src="./images/services/nain-sukh.jpg" class="d-block w-80" alt="Image 4">
+          </div>
+          <!-- Add more carousel items for additional images -->
+      </div>
+  </div>
+</div>
 <br><br>
 <section id="call-to-action" class="call-to-action-bg ">
   <div class="container">
@@ -858,7 +917,6 @@ border-radius: 20px;
      </div>
   </div>
 </section>
-
 
 
 <!-- Call to action end -->
