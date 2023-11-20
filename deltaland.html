@@ -50,6 +50,14 @@
     img{
    width:100%; 
   }
+  @media (max-width: 760px) {
+   .col-md-6 {
+       flex: 0 0 100%;
+       max-width: 100%;
+   }
+}
+
+
     </style>
 </head>
     
@@ -335,7 +343,7 @@
  
       <div class="container">
        <div class="row">
-         <div class="col-lg-3 col-sm-2 col-md-6">
+         <div class="col">
           <div class="jumbotron-slider" >
              <div class="video-wraper" >
                  <video id="banner-video" playsinline="true" autoplay muted loop style="border: solid black; border-radius: 40px; height: 400px; width: 100%;" >
@@ -343,7 +351,7 @@
                  </video>
              </div>
          </div>        </div>
-         <div class="col-lg-3 col-sm-2 col-md-6">
+         <div class="col">
           <div class="jumbotron-slider">
              <div class="video-wraper">
                  <video id="banner-video" playsinline="true" autoplay muted loop style="border: solid black; border-radius: 60px; width:100%; height:350px;">
